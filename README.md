@@ -1,70 +1,74 @@
-# Getting Started with Create React App
+# 💻 Projeto Pokédex
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<center>
+   <img src="https://1hitgames.com/wp-content/uploads/2020/05/4747613-8059908709-Scree.png" width="100%" height="350" />
+</center
 
-## Available Scripts
+<br>
+   
+## :dart: Objetivo do projeto:
+A ideia é usar a Poke Api como fonte de dados para o projeto. Ela é uma API pública, bastante utilizada como fonte de dados para aplicações focadas em aprendizado de programação. Assim o objetivo é criar um site sobre Pokémon com o intuito de aplicar os conhcemintos adquiridos ao longo da décima primeira semana do bootcamp de desenvolvimento web fullstack da Labenu. O foco principal desse projeto foi aplicar os conhecimentos sobre: Estado Global, React Context, Providers e Consumers, Hook useContext, Organização dos dados e do componente de Estado Global. Consequentemente contribuiu para fixar conhcecimentos anteriores sobre o desenvolvimento com React.
 
-In the project directory, you can run:
+## :small_blue_diamond: Requisitos do projeto:
 
-### `npm start`
+- **Home**
+  - Receber uma lista de Pokémon vinda da API;
+  - Poder adicionar o Pokémon em sua Pokédex;
+  - Poder acessar os detalhes clicando naquele Pokémon;
+  - Não conseguir adicionar o mesmo Pokémon duas vezes na Pokédex;
+  - Ao adicionar o Pokémon, o botão deve mudar para remover da Pokédex;
+  - Poder acessar a Pokédex.
+- **Pokédex**
+  - Ver os Pokémon adicionados;
+  - Poder remover o Pokémon da Pokédex;
+  - Poder acessar os detalhes clicando naquele Pokémon;
+  - Poder voltar pra Home.
+- **Detalhes do Pokemon**
+  - Ver imagens do Pokémon;
+  - Ver o tipo do Pokémon;
+  - Ver as estatísticas do Pokémon;
+  - Ver uma tabela de movimentos do Pokémon;
+  - Poder voltar para as outras páginas.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<br>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## ✍️ Wireframe:
 
-### `npm test`
+[Wireframe (protótipo das páginas).](https://github.com/future4code/Shaw-pokedex1/files/8648275/Pokedex.team.library.pdf)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## ⚙️ Funcionalidades:
 
-### `npm run build`
+- Header dinâmico: Botões para transitar entre as páginas de batalha, pokédex, home e um botão de voltar de acordo com a página na qual ele está sendo renderizado;
+- Páginação: São renderizados ao todo 898 pokémon, sendo 21 por página;
+- Cards: Ao clicar na imagem do pokémon o usuário é redirecionado para a tela de detalhes do mesmo, além disso ele pode adicionar ou remover um pokémon da pokédex ao clicar na pokebola;
+- Pokédex: Renderiza todos os pokémon que foram capturados e permite que o usuário os remova da mesma, também permitindo acessar a página de detalhes do respectivo pokémon;
+- Página de Detalhes: Rederiza os detalhes do pokémon que o usuário clicou na home ou na pokédex, além disso ele consegue transitar entre os detalhes de todos os pokémon ao clicar nas setas de próximo e anterior.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## :books: Bibliotecas utilizadas:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- [styled-components](https://styled-components.com/)
+- [axios](https://github.com/axios/axios)
+- [react-icons](https://react-icons.github.io/react-icons)
+- [react-router-dom](https://v5.reactrouter.com/)
+- [chackra ui](https://chakra-ui.com/)
+- [ajna/pagination](https://www.npmjs.com/package/@ajna/pagination)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🔗 Link Surge:
 
-### `npm run eject`
+[Acesse nosso site Pokédex clicando aqui!!!](http://pokedex-grupo1-shaw.surge.sh/)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 📸 Imagens:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+#### DESKTOP
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+![image](https://user-images.githubusercontent.com/50851374/167298952-4509cda7-dd6d-43d7-ae3e-ba9c56f3bb41.png)
+![image](https://user-images.githubusercontent.com/50851374/167299012-feed2804-f668-481b-99ee-361da2e2106b.png)
+![image](https://user-images.githubusercontent.com/50851374/167299195-21a2d44a-9c2c-47f7-bdfa-1d5dbdd53ec2.png)
+![image](https://user-images.githubusercontent.com/50851374/167299272-dcbe50ee-cbff-4387-8f7b-bfa877cfd268.png)
+![image](https://user-images.githubusercontent.com/50851374/167299308-126e8dbf-0fbe-4bce-8ac5-b995e73dac3e.png)
+![image](https://user-images.githubusercontent.com/50851374/167299327-b516171f-d9e4-4ae4-b8c6-7c4248ad3b5b.png)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## 👨‍💻 Desenvolvedores:
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+| [<img src="https://avatars.githubusercontent.com/u/50851374?v=4" width=115><br><sub>Layane Bastos Juvito</sub>](https://github.com/LayaneB) | [<img src="https://avatars.githubusercontent.com/u/99182969?v=4" width=115><br><sub>Lis Fernanda Ribeiro dos Santos</sub>](https://github.com/lisfribeiro) | [<img src="https://avatars.githubusercontent.com/u/98998030?v=4" width=115><br><sub>Matheus Martinelle Barros</sub>](https://github.com/MatthsMB) |
+| :-----------------------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------: |
