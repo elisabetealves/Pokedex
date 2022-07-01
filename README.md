@@ -1,7 +1,7 @@
 # 💻 Projeto Pokédex
 
 <center>
-   <img src="https://1hitgames.com/wp-content/uploads/2020/05/4747613-8059908709-Scree.png" width="100%" height="350" />
+   <img src="https://tm.ibxk.com.br/2019/09/30/30091641838086.jpg?ims=1120x420" width="100%" height="350" />
 </center
 
 <br>
