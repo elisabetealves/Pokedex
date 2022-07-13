@@ -1,11 +1,10 @@
 import React, { useState, useEffect } from 'react'
-import { GlobalContext } from './GlobalContext'
+import { GlobalContext } from './GlobalContex'
 
 export default function GlobalState(props) {
 
    const [pokedex, setPokedex] = useState([])
    const [pageBefore, setPageBefore] = useState([])
-
 
    const states = { pokedex, pageBefore }
    const setters = { setPokedex, setPageBefore }
@@ -14,6 +13,7 @@ export default function GlobalState(props) {
       const pokedexList = JSON.parse(window.localStorage.getItem("pokedex"))
       pokedexList && setPokedex(pokedexList)
    }, [])
+
 
    return (
       <GlobalContext.Provider value={{ states, setters }}>

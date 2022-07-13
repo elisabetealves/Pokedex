@@ -1,15 +1,44 @@
-# 💻 Projeto Pokédex
+<h1 align="center">
+    <br>
+    <p align="center" style="font-weight: bold;">🚀 Projeto Pokédex </p>
+</h1>
 
 <center>
    <img src="https://tm.ibxk.com.br/2019/09/30/30091641838086.jpg?ims=1120x420" width="100%" height="350" />
+
 </center
 
 <br>
-   
-## :dart: Objetivo do projeto:
-A ideia é usar a Poke Api como fonte de dados para o projeto. Ela é uma API pública, bastante utilizada como fonte de dados para aplicações focadas em aprendizado de programação. Assim o objetivo é criar um site sobre Pokémon com o intuito de aplicar os conhcemintos adquiridos ao longo da décima primeira semana do bootcamp de desenvolvimento web fullstack da Labenu. O foco principal desse projeto foi aplicar os conhecimentos sobre: Estado Global, React Context, Providers e Consumers, Hook useContext, Organização dos dados e do componente de Estado Global. Consequentemente contribuiu para fixar conhcecimentos anteriores sobre o desenvolvimento com React.
 
-## :small_blue_diamond: Requisitos do projeto:
+<h1>
+    <br>
+    <p style="font-weight: bold;">🧠 Contexto</p>
+</h1>
+
+O objetivo foi criar um aplicativo para mostar novas mensagens.
+
+- 🎯 Objetivo do Projeto
+- ⚙️ Requisitos
+- ✨ Funcionalidades
+- ❌ O Que Não Funciona
+- 🔗 Link do Projeto no Surge
+- 💻 Como rodar o projeto
+- 🎨 Layout
+- 🛠️ Tecnologias Utilizadas
+- 📚 Bibliotecas Utilizadas
+- 👨‍💻 Desenvolvedores
+
+<h1>
+    <br>
+    <p style="font-weight: bold;">🎯 Objetivo do projeto</p>
+</h1>
+   
+<p align="justify">A ideia é usar a Poke Api como fonte de dados para o projeto. Ela é uma API pública, bastante utilizada como fonte de dados para aplicações focadas em aprendizado de programação. Assim o objetivo é criar um site sobre Pokémon com o intuito de aplicar os conhcemintos adquiridos ao longo da décima primeira semana do bootcamp de desenvolvimento web fullstack da Labenu. O foco principal desse projeto foi aplicar os conhecimentos sobre: Estado Global, React Context, Providers e Consumers, Hook useContext, Organização dos dados e do componente de Estado Global. Consequentemente contribuiu para fixar conhcecimentos anteriores sobre o desenvolvimento com React.</p>
+
+<h1>
+  <br>
+    <p style="font-weight: bold;">⚙️ Requisitos</p>
+</h1>
 
 - **Home**
   - Receber uma lista de Pokémon vinda da API;
@@ -30,13 +59,10 @@ A ideia é usar a Poke Api como fonte de dados para o projeto. Ela é uma API p�
   - Ver uma tabela de movimentos do Pokémon;
   - Poder voltar para as outras páginas.
 
-<br>
-
-## ✍️ Wireframe:
-
-[Wireframe (protótipo das páginas).](https://github.com/future4code/Shaw-pokedex1/files/8648275/Pokedex.team.library.pdf)
-
-## ⚙️ Funcionalidades:
+<h1>
+    <br>
+    <p style="font-weight: bold;">✨ Funcionalidades</p>
+</h1>
 
 - Header dinâmico: Botões para transitar entre as páginas de batalha, pokédex, home e um botão de voltar de acordo com a página na qual ele está sendo renderizado;
 - Páginação: São renderizados ao todo 898 pokémon, sendo 21 por página;
@@ -44,7 +70,89 @@ A ideia é usar a Poke Api como fonte de dados para o projeto. Ela é uma API p�
 - Pokédex: Renderiza todos os pokémon que foram capturados e permite que o usuário os remova da mesma, também permitindo acessar a página de detalhes do respectivo pokémon;
 - Página de Detalhes: Rederiza os detalhes do pokémon que o usuário clicou na home ou na pokédex, além disso ele consegue transitar entre os detalhes de todos os pokémon ao clicar nas setas de próximo e anterior.
 
-## :books: Bibliotecas utilizadas:
+<h1>
+    <br>
+    <p style="font-weight: bold;">🔗 Link do projeto no Surge</p>
+</h1>
+
+https://knowledgeable-cloth.surge.sh/
+
+<h1>
+    <br>
+    <p style="font-weight: bold;">💻 Como rodar o projeto localmente</p>
+</h1>
+
+Siga os passos e inclua as informações abaixo:
+
+| Passo                     | Comando/informação |
+| ------------------------- | ------------------ |
+| Faça o fork               | `botão de forkar`  |
+| ou Faça o clone           | `git clone`        |
+| Instale as dependências   | `npm i`            |
+| utilize o script de start | `npm start`        |
+
+<h1>
+    <br>
+    <p style="font-weight: bold;">🎨 Layout</p>
+</h1>
+
+## 🖥️ web
+
+<p align="center">
+     <img src="./images/desk1.png"  width="400px">   
+</p>
+<p align="center">
+     <img src="./images/desk2.png"  width="400px">   
+</p>
+<p align="center">
+     <img src="./images/desk3.png"  width="400px">   
+</p>
+<p align="center">
+     <img src="./images/desk4.png"  width="400px">   
+</p>
+<p align="center">
+     <img src="./images/desk5.png"  width="400px">   
+</p>
+<p align="center">
+     <img src="./images/desk6.png"  width="400px">   
+</p>
+
+## 📱 Mobile
+
+<p align="center">
+     <img src="./images/mobile1.png">   
+</p>
+<p align="center">
+     <img src="./images/mobile2.png">
+     <img src="./images/mobile3.png"> 
+     <img src="./images/mobile4.png">   
+</p>
+<p align="center">
+     <img src="./images/mobile5.png"> 
+     <img src="./images/mobile6.png">  
+</p>
+
+<br>
+
+<h1>
+    <p style=" font-weight: bold;">🛠️ Tecnologias Utilizadas</p>
+</h1>
+
+ <div style="display: inline_block"><br>
+ 
+  <img align="center" alt="React" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg">
+  <img align="center" alt="HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+  <img align="center" alt="CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+  <img align="center" alt="Git" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg">
+ 
+</div>
+
+<br>
+
+<h1>
+    <br>
+    <p style=" font-weight: bold;">📚 Bibliotecas utilizadas</p>
+</h1>
 
 - [styled-components](https://styled-components.com/)
 - [axios](https://github.com/axios/axios)
@@ -53,22 +161,24 @@ A ideia é usar a Poke Api como fonte de dados para o projeto. Ela é uma API p�
 - [chackra ui](https://chakra-ui.com/)
 - [ajna/pagination](https://www.npmjs.com/package/@ajna/pagination)
 
-## 🔗 Link Surge:
+<h1>
+    <br>
+    <p style=" font-weight: bold;">👨‍💻 Desenvolvedores</p>
+</h1>
 
-[Acesse nosso site Pokédex clicando aqui!!!](http://pokedex-grupo1-shaw.surge.sh/)
+ <table>
 
-## 📸 Imagens:
+_Caso queira contribuir com o projeto, será totalmente bem-vindx!!!_
 
-#### DESKTOP
+_Qualquer dúvida ou sugestão, chama no contatinho!_
 
-![image](https://user-images.githubusercontent.com/50851374/167298952-4509cda7-dd6d-43d7-ae3e-ba9c56f3bb41.png)
-![image](https://user-images.githubusercontent.com/50851374/167299012-feed2804-f668-481b-99ee-361da2e2106b.png)
-![image](https://user-images.githubusercontent.com/50851374/167299195-21a2d44a-9c2c-47f7-bdfa-1d5dbdd53ec2.png)
-![image](https://user-images.githubusercontent.com/50851374/167299272-dcbe50ee-cbff-4387-8f7b-bfa877cfd268.png)
-![image](https://user-images.githubusercontent.com/50851374/167299308-126e8dbf-0fbe-4bce-8ac5-b995e73dac3e.png)
-![image](https://user-images.githubusercontent.com/50851374/167299327-b516171f-d9e4-4ae4-b8c6-7c4248ad3b5b.png)
+  <tr>
+    <td align="center"><a href="https://github.com/elisabetealves"><img style="border-radius: 50%;" src="https://unavatar.now.sh/github/elisabetealves" width="100px;" alt=""/><br /><sub><b>Elisabete Alves</b></sub></a><br /><a href="https://www.linkedin.com/in/elisabete-a-santos/"> <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a> </td>    
+    <td align="center"><a href="https://github.com/pedrocesarp"><img style="border-radius: 50%;" src="https://media-exp2.licdn.com/dms/image/C4D03AQEZYvoXnrZx1w/profile-displayphoto-shrink_200_200/0/1554927480565?e=1661990400&v=beta&t=UZliOwaAAGwFO1bvnSdFBY-2cX9ogdw6KGG_m_Zkl7Y" width="100px;" alt=""/><br /><sub><b>Pedro Cesar Pinto</b></sub></a><br /> <a href="https://www.linkedin.com/in/pedrocesarpinto/"> <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a></td>    
+  </tr>
+  
+</table>
 
-## 👨‍💻 Desenvolvedores:
+<br>
 
-| [<img src="https://avatars.githubusercontent.com/u/50851374?v=4" width=115><br><sub>Layane Bastos Juvito</sub>](https://github.com/LayaneB) | [<img src="https://avatars.githubusercontent.com/u/99182969?v=4" width=115><br><sub>Lis Fernanda Ribeiro dos Santos</sub>](https://github.com/lisfribeiro) | [<img src="https://avatars.githubusercontent.com/u/98998030?v=4" width=115><br><sub>Matheus Martinelle Barros</sub>](https://github.com/MatthsMB) |
-| :-----------------------------------------------------------------------------------------------------------------------------------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------------------------------------: |
+### Feito com 💕 e muita dedicação

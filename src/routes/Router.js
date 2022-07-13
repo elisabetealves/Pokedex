@@ -3,7 +3,7 @@ import HomePage from '../pages/Home/HomePage'
 import PokedexPage from '../pages/Pokedex/PokedexPage'
 import PokemonDetailsPage from '../pages/PokemonDetails/PokemonDetailsPage'
 import BattlePage from '../pages/Battle/BattlePage'
-import ErroPage from "../pages/Erro/ErroPage";
+import ErroPage from "../pages/Error/ErrorPage";
 
 export function Router() {
    return (
